@@ -19,8 +19,8 @@ public class MaximumNumberGenerics {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter 3 Integer No.: ");
-		System.out.println("Greatest Integer No.:" + genericMax(sc.nextInt(), sc.nextInt(), sc.nextInt()));
+		 System.out.println("Enter 3 Float No.: ");
+	     System.out.println("Greatest Float No.:"+ genericMax(sc.nextFloat(),sc.nextFloat(),sc.nextFloat()));
 
 	}
 }
